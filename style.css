@@ -2,3 +2,15 @@
     padding: 0;
     margin: 0;
 }
+
+.container{
+    background-color: aqua;
+    display: flex;
+    min-height: 100vh;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
