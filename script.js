@@ -27,10 +27,6 @@ const showLondon = function(){
         conditionTag.innerHTML = condition
         iconTag.innerHTML = icon
 
-        console.log(location);
-        console.log(temp);
-        console.log(condition);
-    
     
     }
     
@@ -51,13 +47,7 @@ const showTehran = function(){
         tempTag.innerHTML = temp
         conditionTag.innerHTML = condition
         iconTag.innerHTML = icon
-
-        console.log(location);
-        console.log(temp);
-        console.log(condition);
-    
-    
-    }
+ }
     
     )
 
