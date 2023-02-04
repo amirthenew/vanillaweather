@@ -1,6 +1,7 @@
 *{
     padding: 0;
     margin: 0;
+    font-family :'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .container{
@@ -40,13 +41,23 @@ padding: .5rem;
 font-size: 1rem;
 margin: 0 1rem;
 background-color: transparent;
-outline: 1px solid rgba(255, 255, 255, 0.453);
+/* outline: 1px solid rgba(255, 255, 255, 0.453); */
 cursor: pointer;
 color: #fff;
+box-shadow: #38383875 5px 5px 20px;
+
+border-radius: 0.3rem;
 
 }
 
 .cities button:hover{
-    outline: 1px solid rgb(104, 104, 104);
+    /* outline: 1px solid rgb(104, 104, 104); */
+    box-shadow: #383838 5px 5px 20px;
     color: #383838;
+}
+
+.boxtext {
+    color: black;
+    font-weight: 700;
+    font-size: small;
 }
